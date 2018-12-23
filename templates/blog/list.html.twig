@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Blog list{% endblock %}
+
+{% block body %}
+    <style>
+        .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+        .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+    </style>
+
+    <div class="example-wrapper">
+        <h1>Blog list</h1>
+
+        <p>Implement your list logic here</p>
+
+        <a href="{{ url('blog_new') }}">Add new</a>
+    </div>
+{% endblock %}
